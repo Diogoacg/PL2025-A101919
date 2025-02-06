@@ -1,7 +1,7 @@
-# ENGWEB2025
+# Processamento de Linguagem 2025
 
 ## Sobre o repositório
-Este repositório foi criado para armazenar os TPCs da cadeira de Engenharia Web do curso de Engenharia Informática.
+Este repositório foi criado para armazenar os TPCs da cadeira de Processamento de Linguagens
 
 ## Aluno
 - **Nome:** Diogo Afonso Costa Gonçalves
