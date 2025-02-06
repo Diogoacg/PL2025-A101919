@@ -1,4 +1,4 @@
-# Processamento de Linguagem 2025
+# Processamento de Linguagens 2025
 
 ## Sobre o repositório
 Este repositório foi criado para armazenar os TPCs da cadeira de Processamento de Linguagens
