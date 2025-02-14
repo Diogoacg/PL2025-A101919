@@ -20,11 +20,17 @@ Este programa tem como objetivo somar sequências de dígitos num dado texto pas
 ## Exemplo de Entrada e Saída
 
 ### Entrada:
-sdfsdbfdfjhfajhfjkafkahjkjada45ddbassbhdbdfabdjakfkdfakl2025-02-07bdjabfhsdf=hagsdhjafOFfsgdhaghasd789hdghadhas43dbfhsdfjhsonhdsadhagdh2shadsfghdsf5=
+Hoje, 7 de Fevereiro de 2025, o professor de Processamento de Linguagens deu-nos este trabalho para fazer.=OfF E deu-nos 7= dias para o fazer... ON Cada trabalho destes vale 0.25 valores da nota final!
 
 ### Saída:
-2079
-2086
+Hoje, 7 de Fevereiro de 2025, o professor de Processamento de Linguagens deu-nos este trabalho para fazer.=
+>> 2032
+OFF
+ E deu-nos 7=
+>> 2032
+ dias para o fazer... ON
+ Cada trabalho destes vale 0.25 valores da nota final!
+>> 2057
 
 ## Ficheiro
 - [Código Python](tpc1.py)
