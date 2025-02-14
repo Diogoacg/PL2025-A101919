@@ -2,12 +2,12 @@
 
 **Data:** 11 de fevereiro de 2025
 
-## Autor
+# Autor
 
 **Nome:** Diogo Afonso Costa Gonçalves  
 **Número:** a101919  
 
-## Resumo
+# Resumo
 
 Este programa tem como objetivo somar sequências de dígitos num dado texto passado como argumento, seguindo as seguintes regras:
 
@@ -42,5 +42,5 @@ OFF
 >> 2057
 ```
 
-## Ficheiro
+# Lista de Resultados
 - [Código Python](tpc1.py)
