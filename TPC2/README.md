@@ -28,6 +28,7 @@ O algoritmo utiliza expressões regulares (regex) para processar o arquivo CSV d
 ## Exemplo de Utilização
 
 ```bash
+cd TPC2
 python tpc2.py
 ```
 
