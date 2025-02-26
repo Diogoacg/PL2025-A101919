@@ -143,6 +143,7 @@ O algoritmo utiliza expressões regulares (regex) para processar o arquivo Markd
 ## Exemplo de Utilização
 
 ```bash
+cd TPC3
 python tpc3.py exemplo.md
 ```
 

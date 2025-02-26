@@ -1,98 +1,3 @@
-<h1>Conversor de Markdown para HTML</h1>
-<b>Data:</b> 26 de fevereiro de 2025<br>
-<h1>Autor</h1>
-<b>Nome:</b> Diogo Afonso Costa Gonçalves<br>
-<b>Número:</b> a101919<br>
-<h1>Resumo</h1>
-Este programa tem como objetivo converter um arquivo Markdown (<code>.md</code>) em um arquivo HTML (<code>.html</code>). Ele suporta várias funcionalidades do Markdown, incluindo cabeçalhos, listas ordenadas e não ordenadas, blocos de código, citações, texto riscado, texto sublinhado, tabelas, caracteres especiais e linhas horizontais.<br>
-<h2>Funcionalidades Suportadas</h2>
-- <b>Cabeçalhos:</b> Níveis de 1 a 6 (<code>#</code>, <code>##</code>, <code>###</code>, <code>####</code>, <code>#####</code>, <code>######</code>).<br>
-- <b>Listas Ordenadas:</b> Listas numeradas (<code>1.</code>, <code>2.</code>, <code>3.</code>, etc.).<br>
-- <b>Listas Não Ordenadas:</b> Listas com marcadores (<code>-</code>, <code>*</code>, <code>+</code>).<br>
-- <b>Blocos de Código:</b> Blocos de código delimitados por três crases (```<code> </code>`<code> </code>```).<br>
-- <b>Citações:</b> Citações iniciadas com <code>></code>.<br>
-- <b>Texto Riscado:</b> Texto riscado delimitado por <code>~~</code>.<br>
-- <b>Texto Sublinhado:</b> Texto sublinhado delimitado por <code><u>...</u></code>.<br>
-- <b>Tabelas:</b> Tabelas delimitadas por <code>&#124;</code>.<br>
-- <b>Caracteres Especiais:</b> Caracteres especiais escapados (<code>\*</code>, <code>\_</code>, <code>\</code><code>, </code>\[<code>, </code>\]`).<br>
-- <b>Linhas Horizontais:</b> Linhas horizontais (<code>---</code>, <code><i></i>*</code>, <code>___</code>).<br>
-- <b>Links e Imagens:</b> Links (<code><a href="url">texto</a></code>) e imagens (<code><img src="url" alt="alt"/></code>).<br>
-- <b>Código em Linha:</b> Código em linha delimitado por crases (<code>\</code>`).<br>
-<h2>Algoritmo</h2>
-O algoritmo utiliza expressões regulares (regex) para processar o arquivo Markdown de forma eficiente e precisa. As principais etapas do algoritmo são:<br>
-<ol>
-<li><b>Leitura do Arquivo Markdown:</b> O conteúdo do arquivo é lido linha por linha.</li>
-<li><b>Identificação de Elementos Markdown:</b> Utiliza-se regex para identificar e converter elementos Markdown em HTML.</li>
-<li><b>Processamento dos Dados:</b> Os elementos são processados e convertidos para HTML, incluindo cabeçalhos, listas, blocos de código, citações, texto riscado, texto sublinhado, tabelas, caracteres especiais e linhas horizontais.</li>
-</ol>
-<h2>Exemplo de Utilização</h2>
-<pre>
-python tpc3.py exemplo.md
-</pre>
-<h2>Exemplo de Entrada e Saída</h2>
-<h3>Entrada:</h3>
-Arquivo Markdown (<code>exemplo.md</code>) contendo informações formatadas em Markdown.<br>
-Amostra do arquivo:<br>
-<pre>
-# Exemplo de um Titulo
-
-Este é um **exemplo** de texto em markdown bold.
-
-Este é um *exemplo* de texto em markdown itálico.
-
-# Exemplo de um **Título** com *énfase*
-
-## Exemplo de um Subtítulo
-
-Aqui está uma lista numerada:
-
-1. Primeiro item
-2. Segundo item
-3. Terceiro item
-
-Como pode ser consultado em [página da UC](https://www.uminho.pt/PT)
-
-Como se vê na imagem seguinte por link: ![imagem dum coelho](http://www.coelho.com).
-
-Ou na imagem seguinte por ficheiro: ![imagem dum coelho](coelho.jpg)
-
-# Cabeçalho de nível 1
-## Cabeçalho de nível 2
-### Cabeçalho de nível 3
-#### Cabeçalho de nível 4
-##### Cabeçalho de nível 5
-###### Cabeçalho de nível 6
-
-Aqui está um exemplo de `código em linha`.
-
-</pre>
-// Isto é um bloco de código<br>
-int main() {<br>
-    printf("Hello, World!");<br>
-    return 0;<br>
-}<br>
-<pre>
-
-> Esta é uma citação.
-> Pode ter múltiplas linhas.
-
-Este é um ~~texto riscado~~.
-
-Este é um <u>texto sublinhado</u>.
-
-Caracteres especiais: \* \_ \` \[ \]
-
----
-***
-___
-
-**Texto em negrito e *itálico*** com [link](http://www.exemplo.com) e ![imagem](http://www.exemplo.com/imagem.jpg).
-
-</pre>
-<h3>Saída:</h3>
-<pre>
-Arquivo HTML (output.html) gerado a partir do arquivo Markdown. Amostra do arquivo:
-
 <h1>Exemplo de um Titulo</h1>
 Este é um <b>exemplo</b> de texto em markdown bold.<br>
 Este é um <i>exemplo</i> de texto em markdown itálico.<br>
@@ -105,7 +10,7 @@ Aqui está uma lista numerada:<br>
 <li>Terceiro item</li>
 </ol>
 Como pode ser consultado em <a href="https://www.uminho.pt/PT">página da UC</a><br>
-Como se vê na imagem seguinte por link: <img src="http://www.coelho.com" alt="imagem dum coelho"/><br>
+Como se vê na imagem seguinte por link: <img src="http://www.coelho.com" alt="imagem dum coelho"/>.<br>
 Ou na imagem seguinte por ficheiro: <img src="coelho.jpg" alt="imagem dum coelho"/><br>
 <h1>Cabeçalho de nível 1</h1>
 <h2>Cabeçalho de nível 2</h2>
@@ -127,6 +32,7 @@ Este é um <del>texto riscado</del>.<br>
 Este é um <u>texto sublinhado</u>.<br>
 <table>
 <tr><td>Cabeçalho 1</td><td>Cabeçalho 2</td></tr>
+<tr><td>-------------</td><td>-------------</td></tr>
 <tr><td>Linha 1</td><td>Conteúdo 1</td></tr>
 <tr><td>Linha 2</td><td>Conteúdo 2</td></tr>
 </table>
@@ -134,10 +40,4 @@ Caracteres especiais: \* \_ \` \[ \]<br>
 <hr>
 <hr>
 <hr>
-<b>Texto em negrito e <i>itálico</b></i> com <a href="http://www.exemplo.com">link</a> e <img src="http://www.exemplo.com/imagem.jpg" alt="imagem"/><br>
-</pre>
-<h2>Lista de Resultados</h2>
-- <a href="tpc3.py">Código Python</a><br>
-- <a href="exemplo.md">Exemplo Markdown</a><br>
-- <a href="output.html">Exemplo HTML</a><br>
-- <a href="coelho.jpg">Imagem de Coelho</a><br>
+<b>Texto em negrito e <i>itálico</b></i> com <a href="http://www.exemplo.com">link</a> e <img src="http://www.exemplo.com/imagem.jpg" alt="imagem"/>.<br>
