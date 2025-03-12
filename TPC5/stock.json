@@ -1,0 +1,69 @@
+[
+    {
+        "cod": "A23",
+        "nome": "Água 0.5L",
+        "quant": 7,
+        "preco": 0.7
+    },
+    {
+        "cod": "B45",
+        "nome": "Coca-Cola 0.33L",
+        "quant": 5,
+        "preco": 1.2
+    },
+    {
+        "cod": "C67",
+        "nome": "Pringles 40g",
+        "quant": 10,
+        "preco": 1.0
+    },
+    {
+        "cod": "D89",
+        "nome": "M&M's 50g",
+        "quant": 3,
+        "preco": 1.5
+    },
+    {
+        "cod": "E12",
+        "nome": "Oreo 66g",
+        "quant": 7,
+        "preco": 2.0
+    },
+    {
+        "cod": "A21",
+        "nome": "KitKat 41.5g",
+        "quant": 9,
+        "preco": 0.75
+    },
+    {
+        "cod": "B43",
+        "nome": "Snickers 50g",
+        "quant": 6,
+        "preco": 1.0
+    },
+    {
+        "cod": "C65",
+        "nome": "Twix 50g",
+        "quant": 4,
+        "preco": 1.0
+    },
+    {
+        "cod": "D87",
+        "nome": "Bounty 57g",
+        "quant": 2,
+        "preco": 1.25
+    },
+    {
+        "cod": "E10",
+        "nome": "Mars 51g",
+        "quant": 8,
+        "preco": 1.0
+    },
+    {
+        "cod": "A22",
+        "nome": "Bolachas 100g",
+        "quant": 4,
+        "unidade": "",
+        "preco": 0.75
+    }
+]
